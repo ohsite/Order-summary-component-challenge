@@ -51,13 +51,18 @@ body {
 	background-repeat: no-repeat;
 	background-position: cover;
 	display: flex;
+	flex-direction: column;
 	height: 100vh;
-	justify-content: center;
+	align-items: center;
 	margin-top: 10rem;
 	@include respond(phone) {
 		margin-left: 3rem;
 		margin-right: 3rem;
 	}
+}
+
+header {
+text-align: center;
 }
 
 .card {
@@ -69,6 +74,7 @@ body {
 	align-items: center;
 	height: max-content;
 	padding-bottom: 2.5rem;
+	width: max-content;
 
 	&__image {
 		margin-bottom: 1.5rem;
@@ -84,6 +90,8 @@ body {
 		width: 30ch;
 		text-align: center;
 		color: $color-desaturated-blue;
+		display: block;
+		margin: 0 auto;
 		@include respond(phone) {
 			width: 25ch;
 		}
@@ -152,28 +160,8 @@ body {
 }
 
 .attribution {
-	display: none;
+	display: block;
+	margin-top: 3rem;
+	opacity: .2;
 }
 
-// $breakpoint arguments
-// - phone -tab-port -tab-land -big-desktop
-
-/*
-
-@include respond(big-desk) {
-    
-}
-
-@include respond(tab-land) {
-    
-}
-
-@include respond(tab-port) {
-    
-}
-
-@include respond(phone) {
-    
-}
-
-*/
