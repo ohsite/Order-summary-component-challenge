@@ -93,24 +93,6 @@ body {
     color: #1f2f56; }
 
 .attribution {
-  display: none; }
+  display: block; }
 
-/*
 
-@include respond(big-desk) {
-    
-}
-
-@include respond(tab-land) {
-    
-}
-
-@include respond(tab-port) {
-    
-}
-
-@include respond(phone) {
-    
-}
-
-*/
