@@ -29,6 +29,9 @@ body {
       margin-left: 3rem;
       margin-right: 3rem; } }
 
+header {
+  text-align: center;
+
 .card {
   background-color: #fff;
   border-radius: 2rem;
