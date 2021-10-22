@@ -100,6 +100,6 @@ header {
     color: #1f2f56; }
 
 .attribution {
-  display: none;
+  display: block;
   margin-top: 3rem;
   opacity: .2; }
