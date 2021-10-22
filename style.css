@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.6rem;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+  background-position: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  margin-top: 10rem; }
+  @media (max-width: 37.5em) {
+    body {
+      margin-left: 3rem;
+      margin-right: 3rem; } }
+
+header {
+  text-align: center; }
+
+.card {
+  background-color: #fff;
+  border-radius: 2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  padding-bottom: 2.5rem;
+  width: max-content; }
+  .card__image {
+    margin-bottom: 1.5rem; }
+  .card__header {
+    margin: 2rem 0;
+    color: #1f2f56; }
+  .card__text {
+    width: 30ch;
+    text-align: center;
+    color: #7280a7;
+    display: block;
+    margin: 0 auto; }
+    @media (max-width: 37.5em) {
+      .card__text {
+        width: 25ch; } }
+  .card__plan-box {
+    background-color: #f5f7ff;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0; }
+  .card__plan-label {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem; }
+  .card__change-link {
+    display: inline-block;
+    margin-left: auto;
+    font-weight: 600; }
+    .card__change-link:hover {
+      text-decoration: none;
+      color: #766cf1; }
+  .card__btn {
+    color: #fff; }
+    .card__btn:link, .card__btn:active {
+      display: block;
+      width: 80%;
+      background-color: #3829e0;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 1rem;
+      box-shadow: 0 2rem 1.5rem #e0e8ff; }
+    .card__btn:hover {
+      background-color: #766cf1; }
+  .card__cancel-link:link, .card__cancel-link:active {
+    padding: 2rem;
+    color: #1f2f56;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1rem; }
+  .card__cancel-link:hover {
+    color: #1f2f56; }
+
+.attribution {
+  display: block;
+  margin-top: 3rem;
+  opacity: .2; }
