@@ -30,6 +30,8 @@ body {
       margin-right: 3rem; } }
 
 header {
+  display: block;
+  width: 100%;
   text-align: center;
 
 .card {
